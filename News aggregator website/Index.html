@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Aggregator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        article {
+            width: 30%;
+            background-color: #fff;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .stdiv {
+            padding: 80px;
+            padding-bottom: 150px;
+            background-size: cover;
+            border: none;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+
+        .div02,
+        .div03 {
+            color: white;
+        }
+
+        .div03 {
+            padding-left: 100px;
+            font-size: 25px;
+        }
+
+        .service {
+            margin-top: 0px;
+        }
+
+        .img {
+            padding: 30px;
+            height: 300px;
+            width: 500px;
+        }
+
+        .edit {
+            border: solid 1px;
+            margin: 50px 200px;
+            padding: 50px 100px;
+        }
+
+        .edit01 {
+            margin-left: 1100px;
+            margin-top: 20px;
+            font-style: italic;
+            font-size: 18px;
+        }
+
+        article h2 {
+            padding: 2px 20px;
+        }
+
+        article p {
+            padding: 5px 50px;
+        }
+
+        .ele {
+            display: flex;
+            background-image: url(https://static6.depositphotos.com/1000350/647/i/450/depositphotos_6470995-stock-photo-technology-background-news-text-in.jpg);
+            background-size: cover;
+            margin-top: 30px;
+        }
+
+        #form {
+            border: solid 1px;
+            margin: 100px 150px;
+            padding: 30px;
+            border-radius: 0px 40px;
+            background-color: rgba(0, 0, 0, 0.742);
+        }
+
+        #btn {
+            margin-top: 8px;
+            margin-left: 50px;
+        }
+
+        .titt {
+            text-align: center;
+            border: solid 1px;
+            padding: 50px;
+            background-color: #666;
+        }
+
+        .slider,
+        .slider1,
+        .slider2 {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+            margin: 50px 130px;
+            border: solid 1px;
+            border-radius: 50px;
+        }
+
+        .slider1 {
+            margin-right: 400px;
+            margin-bottom: 80px;
+        }
+
+        .slider2 {
+            margin-left: 400px;
+        }
+
+        .slider01 {
+            margin-top: 90px;
+        }
+
+        .contents {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: row;
+            border-top: solid;
+            padding-top: 20px;
+            padding-left: 20px;
+            background-color: rgb(246, 241, 241);
+            vertical-align: top;
+            justify-content: space-between;
+        }
+
+        .head1,
+        .head2 {
+            margin-left: 650px;
+        }
+
+        .head1,
+        .head2,
+        .head3 {
+            margin-bottom: 100px;
+        }
+
+        .headd3 {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>News Aggregator</h1>
+        <h1>And Reader Platform</h1>
+    </header>
+
+    <div class="ele">
+        <div class="stdiv">
+            <h2 class="div02">Stay Informed. Get News Now!</h2>
+            <p class="div03">Access the latest news articles and stay up-to-date with the news aggregator and reader platform.</p>
+            <a href="#">Read more</a>
+        </div>
+
+        <form action="" id="form">
+            <input id="name" type="text" placeholder="Name" ><br>
+            <span class="span" id="name_err"></span><br>
+            <input id="email" placeholder="Email"><br>
+            <span class="span" id="email_err"></span><br>
+            <input type="number" id="number" placeholder="Phone"><br>
+            <span class="span" id="num_err"></span><br>
+            <input type="password" id="password" placeholder="Password">
+            <span class="span" id="pass_err"></span><br>
+            <a href="#" target="#">
+                <button id="btn" type="submit">submit</button>
+            </a>
+        </form>
+    </div>
+
+    <h2 style="font-size: 40px; margin-top:100px; text-align: center;">Service</h2>
+    <section class="service">
+        <article class="service1">
+            <img class="img" src="https://images.unsplash.com/photo-1554446422-d05db23719d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwyMXx8am91cm5hbGlzdHxlbnwwfHx8fDE3MDE0Mzc3Mjl8MA&ixlib=rb-4.0.3&q=80&w=1080">
+            <h2>Social Media Integration:</h2>
+            <p>Share the press release on your organization's social media channels to reach a broader audience.</p>
+        </article>
+        <article>
+            <img class="img" src="https://images.unsplash.com/photo-1497015289639-54688650d173?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwyfHxqb3VybmFsaXN0fGVufDB8fHx8MTcwMTQzNzcyOXww&ixlib=rb-4.0.3&q=80&w=1080">
+            <h2>Lear and Compelling Introduction:</h2>
+            <p>Start with a captivating hook to grab the reader's attention. Clearly state the main idea or purpose of the article in the introduction.</p>
+        </article>
+        <article>
+            <img class="img" src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwyM3x8am91cmFsaXN0fGVufDB8fHx8MTcwMTQzNzcyOXww&ixlib=rb-4.0.3&q=80&w=1080">
+            <h2>Adaptability:</h2>
+            <p>Stay updated on industry trends and adjust your content strategy accordingly. Be willing to experiment with different formats.</p>
+        </article>
+    </section>
+
+    
+
+    <div class="titt">
+        <h1>Stay Informed with Our Platform</h1>
+    </div>
+
+    <div class="slider1">
+        <div class="slider01">
+            <h2>Social media management</h2>
+            <p>Social media management is a dynamic and essential aspect of digital marketing.</p>
+        </div>
+        <div>
+            <img style="height: 300px; width: 500px;" src="https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg">
+        </div>
+    </div>
+
+    <div class="slider2">
+        <div>
+            <img style="height: 300px; width: 500px;" src="https://images.unsplash.com/photo-1605823313768-dee6056bdef2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg">
+        </div>
+        <div class="slider01">
+            <h2>Developing an effective media</h2>
+            <p>Developing an effective media coverage strategy is crucial for businesses seeking to enhance their visibility.</p>
+        </div>
+    </div>
+
+    <div class="slider1">
+        <div class="slider01">
+            <h2>Comprehensive Coverage</h2>
+            <p>Whether you need breaking news, feature articles, press releases, or thought leadership pieces, we offer a wide range of services.</p>
+        </div>
+        <div>
+            <img style="height: 300px; width: 500px;" src="https://images.unsplash.com/photo-1557804506-e969d7b32a4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg">
+        </div>
+    </div>
+
+    <div class="slider">
+        <div>
+            <img style="height: 300px; width: 500px;" src="https://images.unsplash.com/photo-1554200876-980213841c94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg">
+        </div>
+        <div class="slider01">
+            <h2>About Us</h2>
+            <p>We believe in the power of information to enlighten, inspire, and connect people globally. Our mission is to empower you with knowledge.</p>
+        </div>
+    </div>
+
+    <div class="contents">
+        <div>
+            <span class="head1">
+                <h3>Headquarters</h3>
+                <p>Lovely Professional University<br>Jalandhar, 144411<br>India</p>
+            </span>
+        </div>
+        <div>
+            <span class="head2">
+                <h3>Contact Us</h3>
+                <p>+91 7001500101<br>infoexample@gmail.com</p>
+            </span>
+        </div>
+        <div>
+            <span class="head3">
+                <h3>Legal</h3>
+                <p class="headd3">
+                    <a href="#" target="_blank">Information Security policy</a><br>
+                    <u><a href="#" target="_blank">Protection of Personal Data</a></u>
+                </p>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
+
